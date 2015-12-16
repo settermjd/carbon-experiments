@@ -1,0 +1,404 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "1e1f2183a3cb468562ab8fea7de9fa8f",
+    "content-hash": "79690d7085810ff028cc7c8083cd5ddb",
+    "packages": [
+        {
+            "name": "advmaker/carbon-period",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/advmaker/carbon-period.git",
+                "reference": "62393926249056e015860643c72f31383464b83d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/advmaker/carbon-period/zipball/62393926249056e015860643c72f31383464b83d",
+                "reference": "62393926249056e015860643c72f31383464b83d",
+                "shasum": ""
+            },
+            "require": {
+                "nesbot/carbon": ">=1.14",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">=4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Advmaker\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stanislav A. Karabanov"
+                }
+            ],
+            "description": "Extension of nesbot/carbon plugin, to work with date period",
+            "keywords": [
+                "date",
+                "datetime",
+                "period",
+                "time"
+            ],
+            "time": "2015-03-13 15:15:21"
+        },
+        {
+            "name": "cherrypick/hammertime",
+            "version": "v0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cherrypick/HammerTime.git",
+                "reference": "a3f9364de07220443ce7568865d6d99d2e8b2b9b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cherrypick/HammerTime/zipball/a3f9364de07220443ce7568865d6d99d2e8b2b9b",
+                "reference": "a3f9364de07220443ce7568865d6d99d2e8b2b9b",
+                "shasum": ""
+            },
+            "require": {
+                "nesbot/carbon": "~1.10"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "CherryPick\\HammerTime\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Markus Fasselt",
+                    "email": "markus.fasselt@gmail.com"
+                },
+                {
+                    "name": "Konstantin Möllers",
+                    "email": "ksm.moellers@gmail.com"
+                }
+            ],
+            "description": "Some extensions to Carbon (a DateTime class)",
+            "time": "2015-04-30 16:11:30"
+        },
+        {
+            "name": "citco/carbon",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/citco/carbon.git",
+                "reference": "08be4e6134f40c2cac69842fd79557be7f945871"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/citco/carbon/zipball/08be4e6134f40c2cac69842fd79557be7f945871",
+                "reference": "08be4e6134f40c2cac69842fd79557be7f945871",
+                "shasum": ""
+            },
+            "require": {
+                "nesbot/carbon": "1.*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Citco\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "This is a wrapper for nesbot/carbon which also calculates which days are British bank holidays (England &amp; Wales only).",
+            "keywords": [
+                "Bank",
+                "british",
+                "england",
+                "holiday",
+                "holidays",
+                "wales"
+            ],
+            "time": "2015-10-20 13:14:29"
+        },
+        {
+            "name": "nesbot/carbon",
+            "version": "1.21.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/briannesbitt/Carbon.git",
+                "reference": "7b08ec6f75791e130012f206e3f7b0e76e18e3d7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/7b08ec6f75791e130012f206e3f7b0e76e18e3d7",
+                "reference": "7b08ec6f75791e130012f206e3f7b0e76e18e3d7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "symfony/translation": "~2.6|~3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0|~5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Carbon\\": "src/Carbon/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Brian Nesbitt",
+                    "email": "brian@nesbot.com",
+                    "homepage": "http://nesbot.com"
+                }
+            ],
+            "description": "A simple API extension for DateTime.",
+            "homepage": "http://carbon.nesbot.com",
+            "keywords": [
+                "date",
+                "datetime",
+                "time"
+            ],
+            "time": "2015-11-04 20:07:17"
+        },
+        {
+            "name": "rovangju/carbon-fy",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rovangju/carbon-fy.git",
+                "reference": "a184b5576763754fadd319af67072c7c8ec13b93"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rovangju/carbon-fy/zipball/a184b5576763754fadd319af67072c7c8ec13b93",
+                "reference": "a184b5576763754fadd319af67072c7c8ec13b93",
+                "shasum": ""
+            },
+            "require": {
+                "nesbot/carbon": "~1.0",
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~3.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "CarbonExt\\FiscalYear\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPLv2"
+            ],
+            "authors": [
+                {
+                    "name": "Justin Rovang",
+                    "email": "generate@itnobody.com"
+                }
+            ],
+            "description": "Carbon DateTime extension to determine fiscal year (FY)",
+            "keywords": [
+                "FY",
+                "carbon",
+                "datetime",
+                "fiscal year"
+            ],
+            "time": "2015-02-19 21:19:57"
+        },
+        {
+            "name": "rovangju/carbon-nbd",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rovangju/carbon-nbd.git",
+                "reference": "3eba9c4a23648fddec05e6b98c2fb7632a20118e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rovangju/carbon-nbd/zipball/3eba9c4a23648fddec05e6b98c2fb7632a20118e",
+                "reference": "3eba9c4a23648fddec05e6b98c2fb7632a20118e",
+                "shasum": ""
+            },
+            "require": {
+                "nesbot/carbon": "~1.0",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "apigen/apigen": "~2.0",
+                "nette/nette": "~2.1.3",
+                "phpunit/phpunit": "~3.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "CarbonExt\\NBD\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPLv2"
+            ],
+            "authors": [
+                {
+                    "name": "Justin Rovang",
+                    "email": "generate@itnobody.com"
+                }
+            ],
+            "description": "Carbon DateTime extension to calculate the \"next business day\"",
+            "keywords": [
+                "business-day",
+                "carbon",
+                "datetime",
+                "next-business-day"
+            ],
+            "time": "2014-09-07 18:21:13"
+        },
+        {
+            "name": "symfony/polyfill-mbstring",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-mbstring.git",
+                "reference": "0b6a8940385311a24e060ec1fe35680e17c74497"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/0b6a8940385311a24e060ec1fe35680e17c74497",
+                "reference": "0b6a8940385311a24e060ec1fe35680e17c74497",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Mbstring\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for the Mbstring extension",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "mbstring",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "time": "2015-11-04 20:28:58"
+        },
+        {
+            "name": "symfony/translation",
+            "version": "v3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/translation.git",
+                "reference": "7f14717150a7445f8475864d1235875dd04061fb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/7f14717150a7445f8475864d1235875dd04061fb",
+                "reference": "7f14717150a7445f8475864d1235875dd04061fb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9",
+                "symfony/polyfill-mbstring": "~1.0"
+            },
+            "conflict": {
+                "symfony/config": "<2.8"
+            },
+            "require-dev": {
+                "psr/log": "~1.0",
+                "symfony/config": "~2.8|~3.0",
+                "symfony/intl": "~2.8|~3.0",
+                "symfony/yaml": "~2.8|~3.0"
+            },
+            "suggest": {
+                "psr/log": "To use logging capability in translator",
+                "symfony/config": "",
+                "symfony/yaml": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Translation\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Translation Component",
+            "homepage": "https://symfony.com",
+            "time": "2015-11-18 13:48:51"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

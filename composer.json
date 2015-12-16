@@ -1,0 +1,10 @@
+{
+    "require": {
+        "nesbot/carbon": "^1.21",
+        "citco/carbon": "^1.0",
+        "advmaker/carbon-period": "^0.1.0",
+        "rovangju/carbon-nbd": "^1.1",
+        "rovangju/carbon-fy": "^1.0",
+        "cherrypick/hammertime": "^0.3.0"
+    }
+}
