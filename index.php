@@ -7,9 +7,10 @@ use Citco\Carbon as CitcoCarbon;
 use CarbonExt\FiscalYear\Calculator;
 
 // Object Instantiation
-$brisbane = Carbon::today('Australia/Brisbane');
-$newYorkCity = Carbon::today('America/New_York');
-$dtBerlin = Carbon::today('Europe/Berlin');
+
+$brisbane = new Carbon('2015-12-01', 'Australia/Brisbane');
+$newYorkCity  = new Carbon('2015-12-01', 'America/New_York');
+$dtBerlin = new Carbon('2015-12-01', 'Europe/Berlin');
 
 $outputString = "Time difference between %s & %s: %s hours.\n";
 
